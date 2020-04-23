@@ -1,32 +1,32 @@
 <!doctype html>
 <html class="no-js" lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projet LoRa</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projet LoRa</title>
+  <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+</head>
+<body>
 
-    <!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Projet LoRa</li>
-          <li><a href="index.html">Matériels</a></li>
-          <li><a href="reseau.html">Réseau</a></li>
-          <li><a href="grafana.html">Grafana</a></li>
-          <li><a href="tutoriel_and_use_case.html">Tutoriel & Use Case </a></li>
-        </ul>
-      </div>
+  <!-- Start Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text">Projet LoRa</li>
+        <li><a href="index.html">Matériels</a></li>
+        <li><a href="reseau.html">Réseau</a></li>
+        <li><a href="grafana.html">Grafana</a></li>
+        <li><a href="tutoriel_and_use_case.html">Tutoriel & Use Case </a></li>
+      </ul>
     </div>
-    <!-- End Top Bar -->
-    <hr>
-    <div class="row column text-left">
-      <h2>Documentation :</h2>
-    </div>
-    <hr>
-    <table class="row column">
+  </div>
+  <!-- End Top Bar -->
+  <hr>
+  <div class="row column text-left">
+    <h2>Documentation :</h2>
+  </div>
+  <hr>
+  <table class="row column">
     <thead>
       <tr>
         <th width="300">Documents</th>
@@ -42,319 +42,697 @@
         <td>Prise en main des cartes Pycom</td>
         <td><a href="assets/doc/prise en main des cartes Pycom.pdf">prise en main des cartes Pycom.pdf</a></td>
       </tr>
-    </tbody>
-  </table>
+      <td>Datasheets carte Pycom</td>
+      <td><a href="assets/doc/datasheet_pycom">Dossier</a></td>
+    </tr>
+  </tbody>
+</table>
 
-    <hr>
-    <div class="row column text-left">
-      <h2>Use case :</h2>
-    </div>
-    <hr>
+<hr width="100%">
+<div class="row column text-left">
+  <h2>Use case :</h2>
+</div>
+<hr>
 
-    <div class="row column">
-    <ul class="tabs " data-tabs id="example-tabs">
-      <li class="tabs-title is-active"><a href="#panel1" aria-selected="true"><h5>Pycom</h5></a></li>
-      <li class="tabs-title"><a href="#panel2" aria-selected="true"><h5>Kerlink</h5></a></li>
-    </ul>
-    <div class="tabs-content" data-tabs-content="example-tabs">
-      <div class="tabs-panel is-active" id="panel1" >
-        <table width="100%">
-        <thead>
-          <tr>
-            <th width="200">Nom des applications</th>
-            <th>Objectif</th>
-            <th width="150">Capteurs</th>
-            <th width="150">Schéma</th>
-            <th width="150">Prix du capteur</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Température du sol</td>
-            <td>Savoir la température du sol</td>
-            <td><a href="#">Capteur de température</a></td>
-            <td><a href="#">Température du sol.pdf</a></td>
-            <td>3.55 €</td>
-          </tr>
-          <tr>
-            <td>Température de l'air</td>
-            <td>Savoir la température de l'air</td>
-            <td><a href="#">Capteur de température (Carte PySense)</a></td>
-            <td><a href="#">Température de l'air.pdf</a></td>
-            <td>30,67 €</td>
-          </tr>
-          <tr>
-            <td>Luminosité</td>
-            <td>Savoir la luminosité ambiante</td>
-            <td><a href="#">Capteur de luminosité (Carte PySense)</a></td>
-            <td><a href="#">luminosite.pdf</a></td>
-            <td>30,67 €</td>
-          </tr>
-          <tr>
-            <td>Humidité de l'air</td>
-            <td>Savoir la humidité de l'air</td>
-            <td><a href="#">Capteur d'humidité (Carte PySense)</a></td>
-            <td><a href="#">Humidite.pdf</a></td>
-            <td>30,67 €</td>
-          </tr>
-          <tr>
-            <td>Humidité du sol</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Pression atmosphérique</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Qualité de l'air</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>la vitesse du vent et sa direction</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Contrôle de la qualité de l'eau</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Prise électrique intelligente</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Chauffage intelligent</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Interrupteur connecté</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Consommation électrique</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Consommation de l'eau</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Radiation de l'air</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Plante connectée</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Balance intelligente</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Enceinte intelligente</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Distributeur de croquette intelligent</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Machine à Café intelligente</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Doudou connecté</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Porte connectée</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Piège à souris connectée</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Niveau d'un container (poubelle, ...)</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Balise</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Collier connecté</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Véhicules connecté ( Pression pneu / Essence / localisation / vitesse / chauffage / Alerte du danger / Alerte d'un accident / ...)</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Bouton connecté (Bouton de satisfaction, etc)</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Robot connecté</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Caméra connectée</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Détecteur d'ouverture (Fenêtre, porte connecté)</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Sirène d'alarme</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Détecteur de fumée</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Détecteur de véhicule</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Détecteur de mouvement</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Boite sécurisée</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Verrou connecté</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Analyse fréquentation badge NFC</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Analyse fréquentation adresse Mac</td>
-            <td></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
 
-      <div class="tabs-panel" id="panel2" >
-      </div>
-    </div>
+<ul class="tabs " data-tabs id="example-tabs">
+  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true"><h5>Pycom</h5></a></li>
+  <li class="tabs-title"><a href="#panel2" aria-selected="true"><h5>Kerlink</h5></a></li>
+</ul>
+<div class="tabs-content" data-tabs-content="example-tabs">
+  <div class="tabs-panel is-active" id="panel1" >
+    <table width="100%" >
+      <thead>
+        <tr>
+          <th class="text-center" width="300">Nom des applications</th>
+          <th class="text-center">Objectif</th>
+          <th class="text-center" width="300">Capteurs</th>
+          <th class="text-center" width="300">Objets</th>
+          <th class="text-center" width="200">Schéma</th>
+          <th class="text-center" width="200">Prix sans la carte de dévelopemment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><h5>Température du sol</h5></td>
+          <td>Savoir la température du sol</td>
+          <td><a href="https://www.gotronic.fr/art-capteur-de-temperature-i2c-tc74a0-ada4375-30787.htm">Température du sol</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Température du sol.pdf">Température du sol.pdf</a></td>
+          <td>3,55 €</td>
+        </tr>
+        <tr>
+          <td><h5>Température de l'air</h5></td>
+          <td>Savoir la température de l'air</td>
+          <td><a href="https://www.mouser.fr/ProductDetail/Pycom/Pysense?qs=sGAEpiMZZMve4%2FbfQkoj%252BJPfh7xqm78slDIb8fv8edY%3D">Température (Carte PySense)</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Température de l'air.pdf">Température de l'air.pdf</a></td>
+          <td>30,67 €</td>
+        </tr>
+        <tr>
+          <td><h5>Luminosité</h5></td>
+          <td>Savoir la luminosité Ambiante</td>
+          <td><a href="https://www.mouser.fr/ProductDetail/Pycom/Pysense?qs=sGAEpiMZZMve4%2FbfQkoj%252BJPfh7xqm78slDIb8fv8edY%3D">Luminosité (Carte PySense)</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Luminosité.pdf">Luminosité.pdf</a></td>
+          <td>30,67 €</td>
+        </tr>
+        <tr>
+          <td><h5>Humidité de l'air</h5></td>
+          <td>Savoir l'humidité de l'air</td>
+          <td><a href="https://www.mouser.fr/ProductDetail/Pycom/Pysense?qs=sGAEpiMZZMve4%2FbfQkoj%252BJPfh7xqm78slDIb8fv8edY%3D">Capteur d'humidité (Carte PySense)</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Humidité de l'air.pdf">Humidité de l'air.pdf</a></td>
+          <td>30,67 €</td>
+        </tr>
+        <tr>
+          <td><h5>Humidité du sol</h5></td>
+          <td>Savoir l'humidité du sol</td>
+          <td><a href="https://www.sparkfun.com/products/13322">Capteur d'humidité du sol</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Humidité du sol.pdf">Humidité du sol.pdf</a></td>
+          <td>5,51 €</td>
+        </tr>
+        <tr>
+          <td><h5>Pression atmosphérique</h5></td>
+          <td>Savoir la présion atmosphérique</td>
+          <td><a href="https://www.mouser.fr/ProductDetail/Pycom/Pysense?qs=sGAEpiMZZMve4%2FbfQkoj%252BJPfh7xqm78slDIb8fv8edY%3D">Pression barométrique (Carte PySense)</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Pression atmosphérique.pdf">Pression atmosphérique.pdf</a></td>
+          <td>30,67 €</td>
+        </tr>
+        <tr>
+          <td><h5>Qualité de l'air</h5></td>
+          <td>Savoir la qualité de l'air & Alerter l'utilisateur s'il y a un danger</td>
+          <td><a href="https://www.sparkfun.com/products/15743">Qualité de l'air, température, pression, d'humidité</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Qualité de l'air.pdf">Qualité de l'air.pdf</a></td>
+          <td>22,20 €</td>
+        </tr>
+        <tr>
+          <td><h5>vitesse du vent et sa direction</h5></td>
+          <td>Savoir la vitesse et l'orientation du vent</td>
+          <td><a href="https://www.lextronic.fr/capteurs-pour-station-meteo-2640.html">Anémomètre / une girouette</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Vitesse du vent et sa direction.pdf">Vitesse du vent et sa direction.pdf</a></td>
+          <td>89,80 €</td>
+        </tr>
+        <tr>
+          <td><h5>Contrôle de la qualité de l'eau</h5></td>
+          <td>Savoir la qualité de l'eau & Alerter l'utilisateur s'il y a un danger</td>
+          <td><a href="https://www.gotronic.fr/cat-qualite-de-l-eau-1729.htm">Capteur à choisir (une trentaine de capteur de fluide possible)</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Contrôle de la qualité de l'eau.pdf">Contrôle de la qualité de l'eau.pdf</a></td>
+          <td>11,30 € -> 177 €</td>
+        </tr>
+        <tr>
+          <td><h5>Prise électrique intelligente</h5></td>
+          <td>Allumer ou éteindre une prise</td>
+          <td class="text-center">X</td>
+          <td><a href="https://www.ebay.fr/i/293044634795?chn=ps&norover=1&mkevt=1&mkrid=709-134431-41854-0&mkcid=2&itemid=293044634795&targetid=884136510609&device=c&mktype=pla&googleloc=1005875&poi=&campaignid=9567047449&mkgroupid=97621257825&rlsatarget=pla-884136510609&abcId=1139516&merchantid=138391590&gclid=Cj0KCQjwybD0BRDyARIsACyS8mup_GGDcNJ0GkwjiZGL6tfqflx7W1mCo0pddRsM639xX5TApZ0xsGkaAjnBEALw_wcB">Interrupteur a modifier</a></td>
+          <td><a href="assets/schema/pycom_use_case/Prise électrique intelligente.pdf">Prise électrique intelligente.pdf</a></td>
+          <td>7,00 €</td>
+        </tr>
+        <tr>
+          <td><h5>Chauffage intelligent</h5></td>
+          <td>Allumer ou éteindre le chauffage & Augmenter ou baisser le chauffage</td>
+          <td><a href="http://sigalou-domotique.fr/domotique/20-commander-chauffage-fil-pilote-avec-sonoff-4ch-pro-r2-multi-zones">Fil pilote Sonoff 4Ch PRO</a></td>
+          <td>Radiateur électrique</td>
+          <td><a href="assets/schema/pycom_use_case/Chauffage intelligent.pdf">Chauffage intelligent.pdf</a></td>
+          <td>‎34,88 €</td>
+        </tr>
+        <tr>
+          <td><h5>Interrupteur connecté</h5></td>
+          <td>Allumer ou éteindre un interrupteur à distance</td>
+          <td class="text-center">X</td>
+          <td><a href="https://fr.loratap.com/sc500w-v2-p0108.html">Interrupteur</a></td>
+          <td><a href="assets/schema/pycom_use_case/Interrupteur connecté.pdf">Interrupteur connecté.pdf</a></td>
+          <td>15,75 €</td>
+        </tr>
+        <tr>
+          <td><h5>Consommation électrique</h5></td>
+          <td>Savoir sa consommation électrique & Alerter l'utilisateur en cas de surconsommation</td>
+          <td><a href="https://www.hackster.io/minoux-factory/mete-o-r-it-metering-box-with-arducam-micropython-lpwan-581e82">Téléreleve du compteur électrique</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Consommation électrique.pdf">Consommation électrique.pdf</a></td>
+          <td>24,07 €</td>
+        </tr>
+        <tr>
+          <td><h5>Consommation de l'eau</h5></td>
+          <td>Savoir sa consommation d'eau & Alerter utilisateur en cas de fuite d'eau</td>
+          <td><a href="https://www.hackster.io/minoux-factory/mete-o-r-it-metering-box-with-arducam-micropython-lpwan-581e82">Téléreleve du compteur d'eau</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Consommation de l'eau.pdf">Consommation de l'eau.pdf</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><h5>Radiation de l'air</h5></td>
+          <td>Savoir la radiation de l'air ambiante & Alerter en cas de forte radiation</td>
+          <td><a href="https://www.amazon.fr/assembl%C3%A9e-Compteur-d%C3%A9tecteur-rayonnement-nucl%C3%A9aire/dp/B06XHGFVWT">Compteur Geiger</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Radiation de l'air.pdf">Radiation de l'air.pdf</a></td>
+          <td>69,00 €</td>
+        </tr>
+        <tr>
+          <td><h5>Plante connectée</h5></td>
+          <td>Savoir si elle a besoin de quelque chose</td>
+          <td> <a href="https://www.hackster.io/55480/plant-sensor-a9937f">température / la pression / l'humidité (PySense) + Capteur d'humidité du sol</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Plante connectée.pdf">Plante connectée.pdf</a></td>
+          <td>30,67 € + 5,51 €</td>
+        </tr>
+        <tr>
+          <td><h5>Balance intelligente</h5></td>
+          <td>Enregistrer des poids sur une application avec des diagrammes</td>
+          <td><a href="https://www.gotronic.fr/art-capteur-de-force-100-kg-czl301c-19653.htm">Capteur de poid</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Balance intelligente.pdf">Balance intelligente.pdf</a></td>
+          <td>60,40 €</td>
+        </tr>
+        <tr>
+          <td><h5>Enceinte intelligente</h5></td>
+          <td>Régler le volume de l'enceinte & Allumer ou éteindre l'enceinte</td>
+          <td class="text-center">X</td>
+          <td><a href="https://www.youtube.com/watch?v=BXlVYtMAqdI">Enceinte (A fabriqué avec la carte pycom : Bouton play / bouton volume + / bouton volume - / bouton son suivant / bouton son précédent / haut parleur)</a></td>
+          <td><a href="assets/schema/pycom_use_case/Enceinte intelligente.pdf">Enceinte intelligente.pdf</a></td>
+          <td>Prix variable selon le prix des boutons, des hauts parleurs, ...</td>
+        </tr>
+        <tr>
+          <td><h5>Distributeur de croquette intelligent</h5></td>
+          <td>Distribuer des croquettes à des heures données</td>
+          <td>capteur ultrason ou capteur de poid (optionnel permet de voir s'il y'a de la nourriture dans la gammelle)</td>
+          <td><a href="https://www.youtube.com/watch?v=A4lVfLQjviA">Distributeur de croquette</a></td>
+          <td><a href="assets/schema/pycom_use_case/Distributeur de croquette intelligent.pdf">Distributeur de croquette intelligent.pdf</a></td>
+          <td>Prix variable selon les composants choisis </td>
+        </tr>
+        <tr>
+          <td><h5>Machine à Café intelligente</h5></td>
+          <td>Distribuer  le café à des heures données</td>
+          <td class="text-center">X</td>
+          <td><a href="https://creativpi.fr/transformer-machine-a-cafe-video/">Distributeur de café</a></td>
+          <td><a href="assets/schema/pycom_use_case/Machine à Café intelligente.pdf">Machine à Café intelligente.pdf</a></td>
+          <td>Prix variable selon les composants choisis </td>
+        </tr>
+        <tr>
+          <td><h5>Doudou connecté</h5></td>
+          <td>Veilleuse sur un interval de temps & Balise pour repérer le doudou</td>
+          <td><a href="https://www.mouser.fr/ProductDetail/Pycom/Pytrack?qs=sGAEpiMZZMve4%2FbfQkoj%252BHLjZUcUf8oKa9vWMBp2i0s%3D">GPS (Pytrack) ou Géocalisation via les passerelles LoRa</a></td>
+          <td><a href="https://www.gotronic.fr/art-leds-rouges-led5rl-356.htm">Led</a></td>
+          <td><a href="assets/schema/pycom_use_case/Doudou connecté.pdf">Doudou connecté.pdf</a></td>
+          <td>35,73 € + 0,65 €</td>
+        </tr>
+        <tr>
+          <td><h5>Porte connectée</h5></td>
+          <td>Ouvre la porte ou la ferme selon une durée ou un ordre</td>
+          <td class="text-center">X</td>
+          <td><a href="https://ouiaremakers.com/posts/tutoriel-diy-arduino-et-porte-automatique-de-poulailler">résistances 1kohm / moteur (avec renvoi d'angle) 25rpm / coupleur d'axe 4mm-6mm / axe 20cm 4mm</a></td>
+          <td><a href="assets/schema/pycom_use_case/Porte connectée.pdf">Porte connectée.pdf</a></td>
+          <td>1,60 €  +14,50 € + 2.50 € + 1,55 €</td>
+        </tr>
+        <tr>
+          <td><h5>Piège à souris connecté</h5></td>
+          <td>Envoie une notification quand une souris active une tapette</td>
+          <td><a href="https://www.abavala.com/piege-a-souris-connecte-base-de-raspberry-pi/">Capteur infrarouge / optionel (caméra)</a></td>
+          <td><a href="https://www.abavala.com/piege-a-souris-connecte-base-de-raspberry-pi/">Boite fait main / moteur pour faire descendre une trappe</a></td>
+          <td><a href="assets/schema/pycom_use_case/Piège à souris connecté.pdf">Piège à souris connecté.pdf</a></td>
+          <td>Prix variable selon les composants choisis </td>
+        </tr>
+        <tr>
+          <td><h5>Niveau d'un container (poubelle, ...)</h5></td>
+          <td>Savoir le volume du container</td>
+          <td><a href="https://www.gotronic.fr/art-telemetre-a-ultrasons-grove-101020010-18976.htm">Capteur ultrason</a></td>
+          <td>Plusieurs petit capteur à certain niveau voulu</td>
+          <td><a href="assets/schema/pycom_use_case/Niveau d'un container.pdf">Niveau d'un container.pdf</a></td>
+          <td>4,95€ (pour un capteur)</td>
+        </tr>
+        <tr>
+          <td><h5>Balise</h5></td>
+          <td>Géocaliser une balise</td>
+          <td><a href="https://www.mouser.fr/ProductDetail/Pycom/Pytrack?qs=sGAEpiMZZMve4%2FbfQkoj%252BHLjZUcUf8oKa9vWMBp2i0s%3D">GPS (Pytrack) ou Géocalisation via les passerelles LoRa</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Balise.pdf">Balise.pdf</a></td>
+          <td>35,73 €</td>
+        </tr>
+        <tr>
+          <td><h5>Collier connecté</h5></td>
+          <td>Faire une fiche d'information (nom, prénom, etc)</td>
+          <td class="text-center">X</td>
+          <td><a href="https://www.auberdog.com/chiens/collier-laisse-et-harnais-64/collier-pour-chien-45/collier-chien-premium-caramel-c7799">Collier + boite a fabriqué +  bouton poussoir</a></td>
+          <td><a href="assets/schema/pycom_use_case/Collier connecté.pdf">Collier connecté.pdf</a></td>
+          <td>3,49 € -> 5,99 € le collier + Prix boite + 0,77 €</td>
+        </tr>
+        <tr>
+          <td><h5>Véhicule connecté</h5></td>
+          <td>Savoir état global d'un véhicule & Savoir sa localisation via LoRa </td>
+          <td><a href="https://www.gotronic.fr/cat-capteurs-1114.htm">Divers capteurs a choisir selon les information a avoir (niveau du caburant, température, etc ) & Géocalisation via les passerelles LoRa</a></td>
+          <td>Voiture</td>
+          <td><a href="assets/schema/pycom_use_case/Véhicule connecté.pdf">Véhicule connecté.pdf</a></td>
+          <td>Prix des capteurs choisis pour l'état de la voiture</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Alerter en cas de danger</td>
+          <td><a href="https://www.gotronic.fr/art-capteur-de-proximite-ir-38-khz-2578-25811.htm">Detecteur de proximité IR</a></td>
+          <td class="text-center">X</td>
+          <td></td>
+          <td>6,60 €</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Alerter les secours en cas d'accident</td>
+          <td><a href="https://www.gotronic.fr/art-capteur-de-chocs-st053-26118.htm">Detecteur de choque</a></td>
+          <td class="text-center">X</td>
+          <td></td>
+          <td>1,90 €</td>
+        </tr>
+        <tr>
+          <td><h5>Bouton connecté (bouton de satisfaction, etc)</h5></td>
+          <td>Savoir quand on appuie sur un bouton </td>
+          <td class="text-center">X</td>
+          <td><a href="https://fr.rs-online.com/web/p/interrupteurs-tactiles/6866853?cm_mmc=FR-PLA-DS3A-_-google-_-CSS_FR_FR_(FR:Whoop!)+Interrupteurs_Experiment-_-(FR:Whoop!)+Interrupteurs+tactiles-_-PRODUCT_GROUP&matchtype=&pla-339235859414&gclid=CjwKCAjwpqv0BRABEiwA-TySwciS16-S9EV3mj5h8Dttpwz25c6NRLP_VNPeAG1y8OTB9dSiExeBuBoCN0gQAvD_BwE&gclsrc=aw.ds">Boutons</a></td>
+          <td><a href="assets/schema/pycom_use_case/Bouton connecté.pdf">Bouton connecté.pdf</a></td>
+          <td>0,77 €</td>
+        </tr>
+        <tr>
+          <td><h5>Robot connecté</h5></td>
+          <td>Bouger un robot vers la droite à gauche ou tout droit</td>
+          <td class="text-center">X</td>
+          <td><a href="https://www.hackster.io/user83346052/line-following-robot-using-lopy-esp32-a5d516?f=1">Pycom - Expansion board / E.R.N.I.E Robot / Adafruit TB6612FNG motor driver</a></td>
+          <td><a href="assets/schema/pycom_use_case/Robot connecté.pdf">Robot connecté.pdf</a></td>
+          <td>19,58 € + 4,58 € + Prix robot</td>
+        </tr>
+        <tr>
+          <td><h5>Caméra connectée</h5></td>
+          <td>Activer une caméra quand il y'a un mouvement & Alerter utilisateur que la caméra enregistre & Activer ou désactiver le système</td>
+          <td><a href="https://www.gotronic.fr/art-capteur-de-mouvement-ada3595-27969.htm">Detecteur de mouvement</a></td>
+          <td><a href="http://www.1001espions.com/photos-video/235-interrupteur-camera-de-securite-hd.html">Caméra</a></td>
+          <td><a href="assets/schema/pycom_use_case/Caméra connectée.pdf">Caméra connectée.pdf</a></td>
+          <td>9,10 € + 69,90 €</td>
+        </tr>
+        <tr>
+          <td><h5>Détecteur d'ouverture (fenêtre, porte)</h5></td>
+          <td>Alerter utilisateur en cas d'ouverture & Activer ou désactiver le système</td>
+          <td><a href="https://www.gotronic.fr/art-contact-magnetique-miniature-sas308-12751.htm#complte_desc">Détecteur magnétique</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Détecteur d'ouverture.pdf">Détecteur d'ouverture.pdf</a></td>
+          <td>3,70 €</td>
+        </tr>
+        <tr>
+          <td><h5>Sirène d'alarme</h5></td>
+          <td>Activer une alarme</td>
+          <td class="text-center">X</td>
+          <td><a href="https://www.gotronic.fr/art-buzzer-sv2c-18135.htm">Buzzer</a></td>
+          <td><a href="assets/schema/pycom_use_case/Sirène d'alarme.pdf">Sirène d'alarme.pdf</a></td>
+          <td>1,90 €</td>
+        </tr>
+        <tr>
+          <td><h5>Détecteur de fumée</h5></td>
+          <td>Alerter utilisateur en cas de fumée</td>
+          <td><a href="https://www.gotronic.fr/art-detecteur-de-particules-gp2y1010au0f-20603.htm">Détecteur de particule</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Détecteur de fumée.pdf">Détecteur de fumée.pdf</a></td>
+          <td>13,50 €</td>
+        </tr>
+        <tr>
+          <td><h5>Détecteur de véhicule</h5></td>
+          <td>Detecter si un véhicule est présent ou pas</td>
+          <td><a href="https://www.hackster.io/rob-braggaar/smart-parking-node-7dbf18#overview">Compass module (SparkFun HMC6343 Breakout)</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Détecteur de véhicule.pdf">Détecteur de véhicule.pdf</a></td>
+          <td>143,53 €</td>
+        </tr>
+        <tr>
+          <td><h5>Détecteur de mouvement</h5></td>
+          <td>Detecter un mouvement</td>
+          <td><a href="https://www.gotronic.fr/art-capteur-de-mouvement-ada3595-27969.htm">Détecteur de mouvement</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Détecteur de mouvement.pdf">Détecteur de mouvement.pdf</a></td>
+          <td>9,10 €</td>
+        </tr>
+        <tr>
+          <td><h5>Boite sécurisée</h5></td>
+          <td>Fermer / ouvrir la boite via une application</td>
+          <td class="text-center">X</td>
+          <td><a href="https://www.amazon.fr/magn%C3%A9tique-%C3%A9lectrique-Solenoid-fermant-serrure/dp/B078DTWZG7">Boite + verrou</a></td>
+          <td><a href="assets/schema/pycom_use_case/Boite sécurisée.pdf">Boite sécurisée.pdf</a></td>
+          <td>30,99 €</td>
+        </tr>
+        <tr>
+          <td><h5>Verrou connecté</h5></td>
+          <td>Fermer / ouvrir un verrou via une application</td>
+          <td class="text-center">X</td>
+          <td><a href="https://www.amazon.fr/magn%C3%A9tique-%C3%A9lectrique-Solenoid-fermant-serrure/dp/B078DTWZG7">Verrou</a></td>
+          <td><a href="assets/schema/pycom_use_case/Verrou connecté.pdf">Verrou connecté.pdf</a></td>
+          <td>30,99 €</td>
+        </tr>
+        <tr>
+          <td><h5>Analyse fréquentation badge NFC</h5></td>
+          <td>Analyser la fréquentation des employés dans un batiment</td>
+          <td><a href="https://www.gotronic.fr/art-recepteur-rfid-120mm-125khz-id-12la-21942.htm">Récepteur RFID</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Analyse fréquentation badge NFC.pdf">Analyse fréquentation badge NFC.pdf</a></td>
+          <td>34,60 €</td>
+        </tr>
+        <tr>
+          <td><h5>Analyse fréquentation adresse Mac</h5></td>
+          <td>Analyser la fréquentation des personnes dans un lieu</td>
+          <td><a href="https://lora-developers.semtech.com/resources/lorawan-academy/courses/sample-project-paxcounter/">Paxcounter</a></td>
+          <td class="text-center">X</td>
+          <td><a href="assets/schema/pycom_use_case/Analyse fréquentation adresse Mac.pdf">Analyse fréquentation adresse Mac.pdf</a></td>
+          <td>17,18 - 18,08 € </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
-</html>
+  <div class="tabs-panel" id="panel2" >
+
+    <ul class="tabs " data-tabs id="tabsKerlink">
+      <li class="tabs-title is-active"><a href="#kpanel1" aria-selected="true"><h5>Ville</h5></a></li>
+      <li class="tabs-title"><a href="#kpanel2" aria-selected="true"><h5>Agriculture</h5></a></li>
+      <li class="tabs-title"><a href="#kpanel3" aria-selected="true"><h5>Batiment Industriel</h5></a></li>
+      <li class="tabs-title"><a href="#kpanel4" aria-selected="true"><h5>Domicile</h5></a></li>
+    </ul>
+    <div class="tabs-content" data-tabs-content="tabsKerlink">
+      <div class="tabs-panel is-active" id="kpanel1" >
+        <table width="100%" >
+          <thead>
+            <tr>
+              <th class="text-center" width="300">Nom des applications</th>
+              <th class="text-center">Objectif</th>
+              <th class="text-center" width="300">Capteurs</th>
+              <th class="text-center" width="300">Objets</th>
+              <th class="text-center" width="200">Schéma</th>
+              <th class="text-center" width="200">Prix du capteur</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Thermomètre</td><td>Mesurer et savoir la température extérieur </td><td><a href="https://www.g-media.fr/produit/capteur-lora-ers-co2-mesures-denvironnement-t-hr-co2-lux-pir/">Temperature</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Thermomètre.pdf">Thermomètre.pdf</a></td><td>207,00 €</td>
+          </tr>
+          <tr>
+            <td>Contrôle de la pollution</td><td>Mesurer et savoir la pollution extérieur</td><td><a href="https://www.g-media.fr/produit/capteur-lora-ers-co2-mesures-denvironnement-t-hr-co2-lux-pir/">CO2</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Contrôle de la pollution.pdf">Contrôle de la pollution.pdf</a></td><td>207,00 €</td>
+          </tr>
+          <tr>
+            <td>Luminosité</td><td>Mesurer et savoir la luminosité extérieur</td><td><a href="https://www.g-media.fr/produit/capteur-lora-ers-co2-mesures-denvironnement-t-hr-co2-lux-pir/">Luminosité</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Luminosité.pdf">Luminosité.pdf</a></td><td>207,00 €</td>
+          </tr>
+          <tr>
+            <td>Humidité</td><td>Mesurer et savoir Humiditité extérieur</td><td><a href="https://www.g-media.fr/produit/capteur-lora-ers-co2-mesures-denvironnement-t-hr-co2-lux-pir/">Humidité</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Humidité.pdf">Humidité.pdf</a></td><td>207,00 €</td>
+          </tr>
+          <tr>
+            <td>Contrôle du débit sonore</td><td>Mesurer et savoir le son extérieur</td><td><a href="https://www.elsys.se/shop/product/ers-sound/?v=11aedd0e4327">Son</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Contrôle du débit sonore.pdf">Contrôle du débit sonore.pdf</a></td><td>151,00 €</td>
+          </tr>
+          <tr>
+            <td>Vent</td><td>Mesurer et savoir le vent extérieur</td><td><a href="https://www.giga-concept.fr/product/station-meteonet-lorawan-vent/">Vent (vitesse + direction)</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Vent.pdf">Vent.pdf</a></td><td>Devis (ne fait pas la direction du vent)</td>
+          </tr>
+          <tr>
+            <td>Contrôle de la qualité de l'eau</td><td>Mesurer et savoir la qualité d'eau dans une ville</td><td><a href="https://www.aqualabo.fr/module-communiquant-lora-aquamod-antenne-externe-eu868-europe-b49571.html">Divers capteurs (DBO / DCO / BTX / ...)</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Contrôle de la qualité de l'eau.pdf">Contrôle de la qualité de l'eau.pdf</a></td><td>Devis + numéros entreprise</td>
+          </tr>
+          <tr>
+            <td>Population dans un parc / zone public</td><td>Savoir la quantitée de personne dans un lieu public via adresse mac</td><td><a href="https://www.passion-radio.com/tracker/lora-paxcounter-897.html">Paxcounter</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Population dans un parc _ zone public.pdf">Population dans un parc _ zone public.pdf</a></td><td>39,90 €</td>
+          </tr>
+          <tr>
+            <td>Poubelle connectée</td><td>Savoir si une poubelle public est remplit</td><td><a href="https://www.giga-concept.fr/product/capteur-de-remplissage-lora-k-meleon-box/">Ultrason</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Poubelle connectée.pdf">Poubelle connectée.pdf</a></td><td>Devis</td>
+          </tr>
+          <tr>
+            <td>Eclairage public variable</td><td>Modifier le temps éclairage selon la luminosité</td><td><a href="https://www.nasys.no/product/luminaire-controller-zhaga-18/">Luminosité</a></td><td>Lampadaire</td><td><a href="assets/schema/kerlink/Ville/Eclairage public variable.pdf">Eclairage public variable.pdf</a></td><td>40,00 €</td>
+          </tr>
+          <tr>
+            <td>Annalyse de la frequentation</td><td>Analyser la fréquentation d'une adresse mac dans un lieu à surveiller</td><td><a href="https://www.passion-radio.com/tracker/lora-paxcounter-897.html">Paxcounter</a></td><td>X</td><td><a href="assets/schema/kerlink/Ville/Annalyse de la frequentation.pdf">Annalyse de la frequentation.pdf</a></td><td>39,90 €</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="tabs-panel" id="kpanel2" >
+        <table width="100%" >
+          <thead>
+            <tr>
+              <th class="text-center" width="300">Nom des applications</th>
+              <th class="text-center">Objectif</th>
+              <th class="text-center" width="300">Capteurs</th>
+              <th class="text-center" width="300">Objets</th>
+              <th class="text-center" width="200">Schéma</th>
+              <th class="text-center" width="200">Prix du capteur</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Température de l'air</td><td>Savoir la température de l'air</td><td><a href="http://www.nke-watteco.fr/product/capteur-vaqao-plus/">Température de l'air</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Température de l'air.pdf">Température de l'air.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Température du sol  intérieur</td><td>Savoir la température du sol</td><td><a href="https://www.greencityzen.fr/produits-fr/hummbox-sol-humidite-capteur-temperature-connecte/">Température du sol</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Température du sol.pdf">Température du sol.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Luminosité </td><td>Savoir la luminosité ambiante</td><td><a href="http://www.nke-watteco.fr/product/capteur-temperature-humidite-lora/">Luminosité</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Luminosité.pdf">Luminosité.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Humidité de l'air</td><td>Savoir l'humidité de l'air</td><td><a href="http://www.nke-watteco.fr/product/capteur-vaqao-plus/">Humidité de l'air</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Humidité de l'air.pdf">Humidité de l'air.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Humidité du sol </td><td>Savoir l'humidité du sol</td><td><a href="https://www.sensoterra.com/en/product/">Humidité du sol</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Humidité du sol.pdf">Humidité du sol.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Pollution de l'air</td><td>Savoir le Taux de CO2 dans l'air</td><td><a href="http://www.nke-watteco.fr/product/capteur-vaqao-plus/">CO2</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Pollution de l'air.pdf">Pollution de l'air.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Vent</td><td>Savoir la vitesse et la direction du vent extérieur</td><td><a href="https://www.giga-concept.fr/product/station-meteonet-lorawan-vent/">Vent (vitesse + direction)</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Vent.pdf">Vent.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Niveau des tanks d'eau</td><td>Savoir la quantité d'eau dans les tanks</td><td><a href="https://objenious.com/e-catalogue/produit/tank-sensor-tek-766/">Ultrason</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Niveau des tanks d'eau.pdf">Niveau des tanks d'eau.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Qualité de l'eau</td><td>Savoir la qualité de l'eau</td><td><a href="https://www.aqualabo.fr/module-communiquant-lora-aquamod-antenne-externe-eu868-europe-b49571.html">Divers capteurs (DBO / DCO / BTX / COT / COD/ ...)</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Qualité de l'eau.pdf">Qualité de l'eau.pdf</a></td><td>Devis + numéros entreprise</td>
+            </tr>
+            <tr>
+              <td>Ruche</td><td>Savoir la temperature/ la masse / Orientation / Luminosité / Humidité / Vibrations / Pression atmosphérique de la ruche</td><td><a href="https://www.label-abeille.org/fr/content/99-apiculteur-new">temperature/ la masse / Orientation / Luminosité / Humidité / Vibrations / Pression</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Ruche.pdf">Ruche.pdf</a></td><td>768,00 €</td>
+            </tr>
+            <tr>
+              <td>Balisage des animaux / Collier connecté</td><td>Faire un profil pour chaque animaux grâce à des nanos puces pour savoir s'il manque un annimal</td><td>X</td><td><a href="https://www.invoxia.com/ch/fr/pet-tracker">Collier connecté</a></td><td><a href="assets/schema/kerlink/Agriculture/Balisage des animaux _ Collier connecté.pdf">Balisage des animaux _ Collier connecté.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Niveau de container</td><td>Savoir le niveau du container</td><td><a href="https://www.giga-concept.fr/product/capteur-de-remplissage-lora-k-meleon-box/">Ultrason</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Niveau de container.pdf">Niveau de container.pdf</a></td><td>141,15 €</td>
+            </tr>
+            <tr>
+              <td>Détecteur de véhicules</td><td>Savoir si les véhicules sont disponible</td><td><a href="https://rtone.fr/reference/capteur-de-parking-connecte-lora/">Radar ou ultrason</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Détecteur de véhicules.pdf">Détecteur de véhicules.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Porte automatique (enclos, ...)</td><td>Ouvrir automatiquement des portes selon un interval de temps </td><td>X</td><td><a href="https://www.cloture-electrique.expert/trappe-a-poules-automatique-systeme-electronique-d-ouverture-de-porte-pour-poulailler.html?gclid=CjwKCAjwpqv0BRABEiwA-TySwVKKQhGyD5iEzIr7Ikcwnowji-q-goiJpHudwSQTt7eAw3vAYCNu5BoCG5kQAvD_BwE">Porte connecté</a></td><td><a href="assets/schema/kerlink/Agriculture/Porte automatique (enclos, ...).pdf">Porte automatique (enclos, ...).pdf</a></td><td>139,00 €</td>
+            </tr>
+            <tr>
+              <td>Détecteur d'Ouverture (Fenêtre, porte connecté)</td><td>Savoir s'il une fenêtre ou une porte est ouvert quand elle ne le devrai pas</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lora-de-detection-douverture-et-de-fermeture-de-porte-et-fenetre/">Ouverture magnétique</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Détecteur d'Ouverture.pdf">Détecteur d'Ouverture.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Sirène d'alarme</td><td>Activer une alarme en cas d'intrusion</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-de-detection-de-presence-mouvement-lorawan/">Mouvement</a></td><td>Sirène</a></td><td><a href="assets/schema/kerlink/Agriculture/Sirène d'alarme.pdf">Sirène d'alarme.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Détecteur de fumer</td><td>Detecter et prevenir d'un incendie potentiel</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lorawan-de-detection-de-fumee/">électro-optique</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Détecteur de fumer.pdf">Détecteur de fumer.pdf</a></td><td>Devis</td>
+            </tr>
+            <tr>
+              <td>Boîte à Clé Sécurisée </td><td>Déverrouiller une Boite</td><td><a href="https://www.giga-concept.fr/product/acs-padlock-scelle-electronique-connecte-lora/">De coupure du câble / De court-circuit sur le câble / d’ouverture du cache batterie / De mouvement / d’altération du boîtier / De présence du câble / Confirmation de verrouillage ou déverrouillage</a></td><td>X</td><td><a href="assets/schema/kerlink/Agriculture/Boîte à Clé Sécurisée.pdf">Boîte à Clé Sécurisée.pdf</a></td><td>Devis</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tabs-panel" id="kpanel3" >
+        <table width="100%" >
+          <thead>
+            <tr>
+              <th class="text-center" width="300">Nom des applications</th>
+              <th class="text-center">Objectif</th>
+              <th class="text-center" width="300">Capteurs</th>
+              <th class="text-center" width="300">Objets</th>
+              <th class="text-center" width="200">Schéma</th>
+              <th class="text-center" width="200">Prix du capteur</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Température de l'air</td><td>Savoir la température de l'air</td><td><a href="http://www.nke-watteco.fr/product/capteur-vaqao-plus/">Température de l'air</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Température de l'air.pdf">Température de l'air.pdf</td><td>Devis</td>
+              </tr>
+              <tr>
+                <td>Luminosité</td><td>Savoir la luminosité ambiante</td><td><a href="http://www.nke-watteco.fr/product/capteur-temperature-humidite-lora/">Luminosité</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Luminosité.pdf">Luminosité.pdf</td><td>Devis</td>
+                </tr>
+                <tr>
+                  <td>Humidité de l'air</td><td>Savoir l'humidité de l'air</td><td><a href="http://www.nke-watteco.fr/product/capteur-vaqao-plus/">Humidité de l'air</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Humidité de l'air.pdf">Humidité de l'air.pdf</td><td>Devis</td>
+                  </tr>
+                  <tr>
+                    <td>Pollution de l'air</td><td>Savoir le Taux de CO2 dans l'air</td><td><a href="http://www.nke-watteco.fr/product/capteur-vaqao-plus/">CO2</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Pollution de l'air.pdf">Pollution de l'air.pdf</td><td>Devis</td>
+                    </tr>
+                    <tr>
+                      <td>Vent</td><td>Savoir la vitesse et la direction du vent extérieur</td><td><a href="https://www.giga-concept.fr/product/station-meteonet-lorawan-vent/">Vent (vitesse + direction)</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Vent.pdf">Vent.pdf</td><td>Devis</td>
+                      </tr>
+                      <tr>
+                        <td>Contrôle de la qualité de l'eau</td><td>Savoir la qualité de l'eau dans la maison (chlore, calcaire etc) & Alerter utilisateur si la qualité de l'eau est dangereuse pour la santé</td><td><a href="https://www.aqualabo.fr/module-communiquant-lora-aquamod-antenne-externe-eu868-europe-b49571.html">Divers capteurs (DBO / DCO / B / ...)</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Contrôle de la qualité de l'eau.pdf">Contrôle de la qualité de l'eau.pdf</td><td>Devis + numéros entreprise</td>
+                        </tr>
+                        <tr>
+                          <td>Ampoule intelligente</td><td>Savoir la luminosité des ampoules dans une pièce. & Allumer ou éteindre les ampoules via un interface utilisateur</td><td><a href="http://www.nke-watteco.fr/product/capteur-temperature-humidite-lora/">De lumière</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Ampoule intelligente.pdf">Ampoule intelligente.pdf</td><td>Devis</td>
+                          </tr>
+                          <tr>
+                            <td>Prise électrique intelligente</td><td>Allumer ou éteindre une prise électrique d'une pièce</td><td>X</td><td><a href="http://www.nke-watteco.fr/product/actionneur-smart-plug-2/">Prise connecté LoRa</a></td><td><a href="assets/schema/kerlink/Batiment Industriel/Prise électrique intelligente.pdf">Prise électrique intelligente.pdf</td><td>Devis</td>
+                            </tr>
+                            <tr>
+                              <td>Chauffage intelligent</td><td>Savoir la puissance Actuelle des radiateurs & Allumer ou éteindre des radiateurs & Changer la puissance des radiateurs</td><td>X</td><td><a href="http://www.nke-watteco.fr/product/fil-pilote-lorawan/">Radiateur électrique + fil pilote</a></td><td><a href="assets/schema/kerlink/Batiment Industriel/Chauffage intelligent.pdf">Chauffage intelligent.pdf</td><td>Devis</td>
+                              </tr>
+                              <tr>
+                                <td>Volet électrique intelligent</td><td>Activation des volet selon un intervalle de temps (ex : descendre à 22h, monter à 7h)</td><td>X</td><td><a href="https://www.amazon.fr/LoraTap-Interrupteur-R%C3%A9cepteur-Autonomie-T%C3%A9l%C3%A9commande/dp/B075RGNFR1">LoRaTap</a></td><td><a href="assets/schema/kerlink/Batiment Industriel/Volet intelligent.pdf">Volet intelligent.pdf/td><td>22,00 €</td>
+                                </tr>
+                                <tr>
+                                  <td>Consommation électrique</td><td>Savoir la consommation électrique</td><td><a href="http://www.nke-watteco.fr/product/capteur-intenso-lorawan/">Pince ampérométrique</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Consommation électrique.pdf">Consommation électrique.pdf</td><td>Devis</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Consommation de l'eau</td><td>Savoir la consommation d'eau</td><td><a href="http://www.nke-watteco.fr/product/tete-telereleve-senso-lora/">Télérelève de consommations d’eau</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Consommation de l'eau.pdf">Consommation de l'eau.pdf</td><td>Devis</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tapette connectée</td><td>Quand la tapette est enclenchée par une souris, elle envoie une notification pour le propriétaire.</td><td>X</td><td><a href="https://www.xignal.com/products/xignal-mousetrap">Tappette connecté</a></td><td><a href="assets/schema/kerlink/Batiment Industriel/Tapette connectée.pdf">Tapette connectée.pdf</td><td>Devis</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Niveau des containers (poubelle, ...)</td><td>Savoir si un containers est remplit</td><td><a href="https://www.giga-concept.fr/product/capteur-de-remplissage-lora-k-meleon-box/">Ultrason</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Niveau des containers (poubelle, ...).pdf">Niveau des containers (poubelle, ...).pdf</td><td>Devis</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Verrou connecté</td><td>Verrouiller/ deverrouiller à distance des portes</td><td>X</td><td><a href="https://www.giga-concept.fr/product/cylindre-de-porte-connecte-lorawan/">Verrou connecté</a></td><td><a href="assets/schema/kerlink/Batiment Industriel/Verrou connecté.pdf">Verrou connecté.pdf</td><td>Devis</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Caméra connectée</td><td>Activer une caméra lorsqu'il y'a un mouvement</td><td><a href="https://greenice.com/fr/surveillance-video-basic/6763-camera-wifi-720p-detection-de-proximite-sound-prise-de-courant-8435402573432.html?country=FR&currency=EUR&wt_ga=63503247010_338680427667&wt_kw=_63503247010_&gclid=CjwKCAjwg6b0BRBMEiwANd1_SGIr4ZpeCZRB7X1ThXFfpS4a5SURJHqbb4ZysSmiNymRLxgrAySPphoCakIQAvD_BwE">De mouvement</td><td>Caméra connecté</td><td><a href="assets/schema/kerlink/Batiment Industriel/Caméra connectée.pdf">Caméra connectée.pdf</td><td>56,99 €</td>
+                                            </tr>
+                                            <tr>
+                                              <td></td><td>Identifier des individus dans son domicile & Alerter le propriétaire si les individu son cagoulé ou armé</td><td>X</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-de-detection-de-presence-mouvement-lorawan/">Mouvement</a></td><td></td><td>Devis</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Analyse de la fréquentation</td><td>Analyser la fréquentation d'une adresse mac dans un lieu à surveiller</td><td><a href="https://www.passion-radio.com/tracker/lora-paxcounter-897.html">Paxcounter</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Analyse de la fréquentation.pdf">Analyse de la fréquentation.pdf</td><td>39,90 €</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Détecteur d'Ouverture (Fenêtre, porte connecté)</td><td>Savoir s'il une fenêtre ou une porte est ouvert quand elle ne le devrai pas</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lora-de-detection-douverture-et-de-fermeture-de-porte-et-fenetre/">Ouverture magnétique</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Détecteur d'Ouverture.pdf">Détecteur d'Ouverture.pdf</td><td>Devis</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Sirène d'alarme</td><td>Emettre une alarme en cas de présence non désirer</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-de-detection-de-presence-mouvement-lorawan/">Mouvement</a></td><td>Sirène</td><td><a href="assets/schema/kerlink/Batiment Industriel/Sirène d'alarme.pdf">Sirène d'alarme.pdf</td><td>Devis</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Détecteur de fumer</td><td>Dectecter et prevenir d'un incendie potentiel</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lorawan-de-detection-de-fumee/">électro-optique</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Détecteur de fumer.pdf">Détecteur de fumer.pdf</td><td>Devis</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>Boîte à Clé Sécurisée</td><td>Déverrouiller une Boite</td><td><a href="https://www.giga-concept.fr/product/acs-padlock-scelle-electronique-connecte-lora/">De coupure du câble / De court-circuit sur le câble / d’ouverture du cache batterie / De mouvement / d’altération du boîtier / De présence du câble / Confirmation de verrouillage ou déverrouillage</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Boîte à Clé Sécurisée.pdf">Boîte à Clé Sécurisée.pdf</td><td>Devis</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>Detecteur de véhicules</td><td>Savoir si les véhicules sont présents</td><td><a href="https://rtone.fr/reference/capteur-de-parking-connecte-lora/">Radar ou ultrason</a></td><td>X</td><td><a href="assets/schema/kerlink/Batiment Industriel/Détecteur de véhicules.pdf">Détecteur de véhicules.pdf</td><td>Devis</td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+                                                  <div class="tabs-panel" id="kpanel4" >
+                                                    <table width="100%" >
+                                                      <thead>
+                                                        <tr>
+                                                          <th class="text-center" width="300">Nom des applications</th>
+                                                          <th class="text-center">Objectif</th>
+                                                          <th class="text-center" width="300">Capteurs</th>
+                                                          <th class="text-center" width="300">Objets</th>
+                                                          <th class="text-center" width="200">Schéma</th>
+                                                          <th class="text-center" width="200">Prix du capteur</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                    	<tr>
+                                                    		<td>Controle de qualité de l'air </td><td>Si l'air n'est pas sain on envoie une notification à l'utilisateur pour qu'il aère la pièce.</td><td><a href="http://www.nke-watteco.fr/product/capteur-vaqao-plus/">Température / Humidité / Pression atmosphérique/ Concentration en Composés Organiques Volatiles (COV) / Concentration de Dioxyde de Carbone (CO2)</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Controle de qualité de l'air.pdf">Controle de qualité de l'air.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Thermomètre</td><td>Savoir la température d'une pièce</td><td><a href="https://www.ewattch.com/portfolio-item/environnement/">Température</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Thermomètre.pdf">Thermomètre.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Détecteur de mouvement</td><td>Envoie une information de mouvement sur un interface Web</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-de-detection-de-presence-mouvement-lorawan/">Mouvement</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Détecteur de mouvement.pdf">Détecteur de mouvement.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Contrôle du débit sonore</td><td>Savoir le nombre de décibel dans une pièce</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lorawan-de-surveillance-de-la-qualite-de-lenvironnement-interieur/">De son</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Contrôle du débit sonore.pdf">Contrôle du débit sonore.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Contrôle de la qualité de l'eau</td><td>Savoir la qualité de l'eau dans la maison (chlore, calcaire etc) & Alerter utilisateur si la qualité de l'eau est dangereuse pour la santé</td><td><a href="https://www.aqualabo.fr/module-communiquant-lora-aquamod-antenne-externe-eu868-europe-b49571.html"> Divers capteurs (DBO / DCO / BTX / COT / ...) </a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Contrôle de la qualité de l'eau.pdf">Contrôle de la qualité de l'eau.pdf</a></td><td>Devis + numéros entreprise</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Ampoule intelligente</td><td>Savoir la luminosité des ampoules dans une pièce & Allumer ou éteindre les ampoules via un interface utilisateur</td><td><a href="http://www.nke-watteco.fr/product/capteur-temperature-humidite-lora/">De lumière</a></td>
+                                                    		<td>X</td><td><a href="assets/schema/kerlink/Domicile/Ampoule intelligente.pdf">Ampoule intelligente.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Prise électrique intelligente</td><td>Allumer ou éteindre une prise électrique d'une pièce</td><td>X</td><td><a href="http://www.nke-watteco.fr/product/actionneur-smart-plug-2/">Prise connecté LoRa</a></td><td><a href="assets/schema/kerlink/Domicile/Prise électrique intelligente.pdf">Prise électrique intelligente.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Chauffage intelligent</td><td>Savoir la puissance Actuelle des radiateurs & Allumer ou éteindre des radiateurs & Pourvoir changer la puissance des radiateurs</td><td>X</td><td><a href="http://www.nke-watteco.fr/product/fil-pilote-lorawan/"> Radiateur électrique + fil pilote</a>"</td><td><a href="assets/schema/kerlink/Domicile/Chauffage intelligent.pdf">Chauffage intelligent.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Volet intelligent</td><td>Activation des volet selon un intervalle de temps (ex : descendre à 22h, monter à 7h)</td><td>X</td><td><a href="https://www.amazon.fr/LoraTap-Interrupteur-R%C3%A9cepteur-Autonomie-T%C3%A9l%C3%A9commande/dp/B075RGNFR1">Volet connecté </a></td><td><a href="assets/schema/kerlink/Domicile/Volet intelligent.pdf">Volet intelligent.pdf</a></td><td>22,00 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Contrôle de la consommation électrique</td><td>Savoir la consommation électrique </td><td><a href="http://www.nke-watteco.fr/product/capteur-intenso-lorawan/">De consommation électrique</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Contrôle de la consommation électrique.pdf">Contrôle de la consommation électrique.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Contrôle de la consommation d'eau</td><td>Savoir la consommation d'eau</td><td><a href="http://www.nke-watteco.fr/product/tete-telereleve-senso-lora/">De consomation d'eau </a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Contrôle de la Consommation d'eau.pdf">Contrôle de la Consommation d'eau.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Poubelle Connectée</td><td>Savoir en temps réelle la quantité de déchet dans une poubelle</td><td><a href="https://www.nemeus.fr/product/ultrasonic-sensor/">Ultrason</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Poubelle connectée.pdf">Poubelle connectée.pdf</a></td><td>245,00 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Plante connecté</td><td>Savoir quand une plante a besoin d'eau et surtout quand elle n'en a pas besoin</td><td><a href="https://www.sensoterra.com/en/product/">D'humidité dans le sol </a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Plante connecté.pdf">Plante connecté.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td></td><td>Surveiller la luminosité, la température de l'air</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lorawan-de-surveillance-de-la-qualite-de-lenvironnement-interieur/">De luminosité / De température</a></td><td>X</td><td></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Balance intelligente</td><td>Garder une trace du poid de l'utilisateur</td><td><a href="https://ruche-connectee.com/produit/balance-help-bees-classique-abonnement-1-an-offert/">De masse</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Balance intelligente.pdf">Balance intelligente.pdf</a></td><td>359,00 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Enceinte intelligente</td><td>Pouvoir changer le volume des enceintes & Allumer ou éteindre des enceintes </td><td>X</td><td><a href="https://www.amazon.fr/amazon-echo-3eme-generation-enceinte-connectee-avec-alexa/dp/B07P64LFFH/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=alexa&qid=1586094997&s=amazon-devices&sr=1-2">Enceinte Connecté</a></td><td><a href="assets/schema/kerlink/Domicile/Enceinte intelligente.pdf">Enceinte intelligente.pdf</a></td><td>99,99 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Distributeur de croquette intelligent</td><td>Distribuer des croquettes à des heures données pour son animal</td><td>X</td><td><a href="https://www.croquetteland.com/fr/distributeur-automatique-de-nourriture.html?___store=fr_fr&lgw_code=11842-19012&gclid=CjwKCAjwg6b0BRBMEiwANd1_SPn9y2kzX60KbeuiFXINbzV4hd5TiAkC6r7A-NruXCF9fBXf6--ZdBoC4yMQAvD_BwE">Distributeur de Croquette connecté</a></td><td><a href="assets/schema/kerlink/Domicile/Distributeur de croquette.pdf">Distributeur de croquette.pdf</a></td><td>25,99 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td></td><td>Alerte le propriétaire si la gamelle est remplie et qu'il n'a pas distribué les croquettes </td><td><a href="https://yadom.fr/capteur-ultra-son-sigfox-lora-nemeus-nis-ul-ls-eu.html">Ultrason</a></td><td>X</td><td></td><td>260,00 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Machine à Café intelligente</td><td>Faire du café pour une horaire donnée (petit déjeuner)</td><td>X</td><td><a href="https://www.nespresso.com/fr/fr/prodigio-machines-range">machine à café connecté</a></td><td><a href="assets/schema/kerlink/Domicile/Machine à Café intelligente.pdf">Machine à Café intelligente.pdf</a></td><td>89,50 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Doudou connecté</td><td>Veilleuse le soir</td><td>X</td><td><a href="https://www.numidou.com/">Lampe LoRa</a></td><td><a href="assets/schema/kerlink/Domicile/Doudou connecté.pdf">Doudou connecté.pdf</a></td><td>39,90 € - 46,90 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td></td><td>Alerte si le doudou n'est plus à proximité</td><td>X</td><td><a href="https://ela.fr/lora-n-track.html">Balise LoRa</a></td><td></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Tapette à souris connecté</td><td>Quand la tapette est enclenchée par une souris, elle envoie une notification pour le propriétaire.</td><td>X</td><td><a href="https://www.xignal.com/products/xignal-mousetrap">Tappette connecté</a></td><td><a href="assets/schema/kerlink/Domicile/Tapette à souris connecté.pdf">Tapette à souris connecté.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Détecteur d'ouverture (fenêtre/porte)</td><td>Envoie une information d'une ouverture sur un interface Web</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lora-de-detection-douverture-et-de-fermeture-de-porte-et-fenetre/">D'ouverture magnétique</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Détecteur d'ouverture.pdf">Détecteur d'ouverture.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Sirène d'alarme</td><td>Emettre une alarme en cas de présence non désirer</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-de-detection-de-presence-mouvement-lorawan/">De mouvement</a></td><td><a href="https://www.objetdomotique.com/produit/sirene-dalerte-exterieure-lora-altec/">Sirène connecté au capteur</a></td><td><a href="assets/schema/kerlink/Domicile/Sirène d'alarme.pdf">Sirène d'alarme.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Détecteur de fumée</td><td>Alerter le propriétaire si de la fumer est detecté</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lorawan-de-detection-de-fumee/">De fumée</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Détecteur de fumée.pdf">Détecteur de fumée.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Porte automatique (garage, portique, ...) intelligente</td><td>Ouvrir et Fermer automatiquement des portes grace à la détection d'une puce RFID, d'une balise connecté, portable</td><td><a href="http://www.nke-watteco.fr/product/fil-pilote-lorawan/">D'ouverture magnétique</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Porte automatique.pdf">Porte automatique.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td></td><td>Notifier le propriétaire quand une porte, fenêtre s'ouvre</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-lora-de-detection-douverture-et-de-fermeture-de-porte-et-fenetre/">D'ouverture magnétique</a></td><td>X</td><td></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Caméra</td><td>Activer une caméra lorsqu'il y'a un mouvement</td><td><a href="https://iotfactory.eu/fr/products/iot-sensors/capteur-de-detection-de-presence-mouvement-lorawan/">De mouvement</a></td><td></td><td><a href="assets/schema/kerlink/Domicile/Caméra.pdf">Caméra.pdf</a></td><td>56,99 €</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td></td><td>Identifier des individus dans son domicile &Alerter le propriétaire si les individu son cagoulé ou armé</td><td>X</td><td><a href="https://greenice.com/fr/surveillance-video-basic/6763-camera-wifi-720p-detection-de-proximite-sound-prise-de-courant-8435402573432.html?country=FR&currency=EUR&wt_ga=63503247010_338680427667&wt_kw=_63503247010_&gclid=CjwKCAjwg6b0BRBMEiwANd1_SGIr4ZpeCZRB7X1ThXFfpS4a5SURJHqbb4ZysSmiNymRLxgrAySPphoCakIQAvD_BwE">Caméra connecté</a></td><td></td><td>Devis</td>
+                                                    	</tr>
+                                                    	<tr>
+                                                    		<td>Boîte à clé sécurisée intelligente</td><td>Boite sécurisé (Grace à une puce RFID, portable, ...) (peut servir pour mettre des clés dors récupérable)</td><td><a href="https://www.giga-concept.fr/product/acs-padlock-scelle-electronique-connecte-lora/">De coupure du câble / De court-circuit sur le câble / d’ouverture du cache batterie / De mouvement / d’altération du boîtier / De présence du câble / Confirmation de verrouillage ou déverrouillage</a></td><td>X</td><td><a href="assets/schema/kerlink/Domicile/Boîte à clé sécurisée.pdf">Boîte à clé sécurisée.pdf</a></td><td>Devis</td>
+                                                    	</tr>
+                                                    </tbody>
+                                                    </table>
+
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+                                            <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+                                            <script>
+                                            $(document).foundation();
+                                            </script>
+                                          </body>
+                                          </html>
