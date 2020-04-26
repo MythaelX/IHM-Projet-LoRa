@@ -3,6 +3,6 @@ IHM pour le projet M1 LoRa
 
 4 onglets :
 - Matériel
-- Données des capteur Grafana
-- Schéma des réseau utilisé
+- Données des capteurs Grafana
+- Schéma du réseau utilisé
 - Tutoriel et Use case 
